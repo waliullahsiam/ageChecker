@@ -1,0 +1,54 @@
+body{
+
+    background-color: rgb(87, 84, 84);
+}
+
+
+
+
+
+
+.footerhead{
+
+    width:300px;
+
+    
+
+    align-self: center;
+}
+
+.inp{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#age{
+
+    align-self: center;
+
+    margin: 10px;
+
+
+}
+
+.footer{
+
+    height: 3rem;
+
+    
+
+    background-color: black;
+
+    color:white;
+
+    text-align: center;
+
+    margin-top:15rem;
+}
+
+.card{
+
+    background-color: #b7bec7 !important;
+}
