@@ -14,15 +14,20 @@ inpAge.addEventListener("input", () => {
 
 
 
-
-    if (inpAge.value >= 18) {
-        card1.style.visibility = 'hidden';
+  if (inpAge.value === "") {
+        card1.style.visibility = "visible";
         card2.style.visibility = "visible";
-    }
-    else if (inpAge.value >= 0 && inpAge.value < 18) {
+    } else {
+        let age = parseInt(inpAge.value);
 
-        card1.style.visibility = 'visible';
-        card2.style.visibility = 'hidden';
+        if (age >= 18) {
+            card2.style.visibility = "visible";
+            card1.style.visibility = "hidden";
+        } else {
+            card2.style.visibility = "hidden";
+            card1.style.visibility = "visible";
+        }
+
     }
 
 
