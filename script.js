@@ -1,8 +1,6 @@
 
 let inpAge = document.querySelector("#ageVal");
 
-let submit = document.querySelector("#submit");
-
 let card1 = document.querySelector("#child");
 
 let card2 = document.querySelector("#man");
